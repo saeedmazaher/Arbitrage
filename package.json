@@ -6,7 +6,8 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongoose": "^8.13.2",
-    "path-to-regexp": "^8.2.0"
+    "path-to-regexp": "^8.2.0",
+    "socks-proxy-agent": "^8.0.5"
   },
   "name": "server",
   "type": "module",
@@ -19,5 +20,8 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
 }
